@@ -20,7 +20,7 @@ popup.style.zIndex = 99;
 
 document.body.appendChild(popup);
 
-document.addEventListener("mouseup", async function(event) {
+document.addEventListener("dblclick", async function(event) {
   let status = null;
   const lastName = event.target.textContent.trim();
   
